@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Heebo', sans-serif;
+}
+
+.container {
+  max-width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.header-container img {
+  width: 3.8rem;
+  height: 2.5rem;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  color: #a6a5a8;
+}
